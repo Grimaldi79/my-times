@@ -126,6 +126,7 @@ background-image: url(../images/img-story-1.png);
 .news-bites h3{
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 .news-bites .snipit{
   display: block;
@@ -139,26 +140,34 @@ background-image: url(../images/img-story-1.png);
   border-bottom: 1px solid black;
 }
 
-.article-1{
-border: 1px solid black;
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+
 }
 
-.article{
-border: 1px solid black;
+.my-time span{
+  font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-right: 2px solid white;
+    padding: 5px 25px 5px 0px;
 }
 
-.sub-art{
-border: 1px solid black;
+.footer-nav{
+  display: block;
+
 }
 
-.art-text{
-border: 1px solid black;
-}
-
-.image{
-border: 1px solid black;
-}
-
-.art-foot{
-border: 1px solid black;
+.copy-write{
+  display: block;
+  align-self: center;
 }
