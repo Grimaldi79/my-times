@@ -41,30 +41,26 @@ nav a{
 }
 
 div{
-    border: 1px solid black;
+  display:block;
 }
 
 .main-content{
-  border: 1px solid black;
   padding-top: 120px;
   margin: 0 auto 78px auto;
   display: flex;
   width: 1232px;
 }
-
 .column{
   display: flex;
   flex-direction: column;
   margin-right: 30px;
 }
-
 .art-text{
   display: flex;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
-
 .image-text{
   font-family: Georgia;
   font-weight: bold;
@@ -76,7 +72,6 @@ div{
 
 .column-1{
   width: 630px;
-  border: 1px solid black;
 }
 
 .main-image{
@@ -92,12 +87,10 @@ div{
   display: flex;
   flex-direction: row;
 }
-
 .earth-spins-image{
   display: flex;
   background-image: url(../images/img-story-2.png);
 }
-
 .camaras-erase-image{
   display: flex;
   background-image: url(../images/img-story-3.png);
@@ -105,9 +98,7 @@ div{
 
 .column-2 {
   width: 300px;
-  border: 1px solid black;
 }
-
 .cat-image{
 background-image: url(../images/img-story-1.png);
 }
@@ -117,9 +108,7 @@ background-image: url(../images/img-story-1.png);
   flex-direction: column;
   height: 100%;
   width: 240px;
-  border: 1px solid black;
 }
-
 .news-bites{
   display: block;
 }
@@ -142,32 +131,35 @@ background-image: url(../images/img-story-1.png);
 
 .footer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 100%;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
-
+  height: 300px;
+  width: 100%;
 }
-
-.my-time span{
-  font-family: Georgia;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    border-right: 2px solid white;
-    padding: 5px 25px 5px 0px;
-}
-
-.footer-nav{
+.footer-sections{
   display: block;
-
 }
-
-.copy-write{
+.footer .my-time{
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding: 5px 25px 5px 0px;
+}
+.footer-nav{
+  display: inline-block;
+}
+nav span{
+  display: inline-block;
+}
+.copyrite{
   display: block;
   align-self: center;
 }
